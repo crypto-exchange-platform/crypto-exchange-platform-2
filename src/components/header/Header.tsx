@@ -3,13 +3,14 @@ import { Button } from "../ui/button";
 
 const NAV_ITEMS = [
   { label: "Buy crypto", href: "#hero" },
+  { label: "Overview", href: "#overview" },
+  { label: "How it works", href: "#howitworks" },
+  { label: "Trusted", href: "#trsutedplatform" },
   { label: "Markets", href: "#market" },
-  { label: "Trade", href: "#copy" },
-  { label: "Futures", href: "#journey" },
-  { label: "Earn", href: "#faq" },
-  { label: "Support", href: "#support" },
-  { label: "About", href: "#about" },
+  { label: "Testimonials", href: "#testimonials" },
+  { label: "FAQ", href: "#faq" },
 ];
+
 
 interface HeaderProps {
   onLogin: () => void;
