@@ -1,0 +1,30 @@
+import { Header } from "../header/Header";
+import { HeroSpinPrize } from "../heroSection/HeroSection";
+import { FaqSection } from "../faqSection/FaqSection";
+import { Footer } from "../footer/Footer";
+import { useState } from "react";
+
+function LandingPage() {
+  const [modal, setModal] = useState<"login" | "signup" | null>(null);
+
+  return (
+    <>
+
+      <div className="flex flex-col">
+        <Header
+          onLogin={() => setModal("login")}
+          onSignup={() => setModal("signup")}
+        />
+        <section id="hero">
+          <HeroSpinPrize />
+        </section>
+        <section id="faq">
+          <FaqSection />
+        </section>
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+export default LandingPage;
