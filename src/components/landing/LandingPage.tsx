@@ -5,6 +5,7 @@ import { Footer } from "../footer/Footer";
 import { useState } from "react";
 import { Overview } from "../overview/Overview";
 import { HowItWorks } from "../howItWorks/HowItWorks";
+import { TestimonialSection } from "../testimonials/Testimonials";
 
 function LandingPage() {
   const [modal, setModal] = useState<"login" | "signup" | null>(null);
@@ -25,6 +26,9 @@ function LandingPage() {
         </section> 
         <section id="howitworks">
           <HowItWorks />
+        </section>
+         <section id="testimonials">
+          <TestimonialSection />
         </section>
         <section id="faq">
           <FaqSection />
