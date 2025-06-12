@@ -48,7 +48,7 @@ export const FaqSection: FC = () => {
   return (
     <section
       id="faq"
-      className="w-full bg-gradient-to-b from-pink-400 via-fuchsia-700 to-rose-400  text-white py-24 px-4"
+      className="w-full bg-gradient-to-b from-pink-600 via-fuchsia-700 to-rose-600 text-white py-24 px-4"
     >
       <style>{`
         .faq-item {
