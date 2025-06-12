@@ -18,7 +18,7 @@ interface HeaderProps {
 
 export const Header: FC<HeaderProps> = ({ onLogin, onSignup }) => {
   return (
-    <header className="w-full sticky top-0 z-50 backdrop-blur-md bg-gradient-to-r from-pink-600 via-fuchsia-600 to-rose-600 shadow-lg shadow-fuchsia-900/20">
+    <header className="w-full sticky top-0 z-50 backdrop-blur-md bg-gradient-to-b from-[#1a0329] via-[#29063d] to-[#1a0329]shadow-lg shadow-fuchsia-900/20">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <a href="/" aria-label="Homepage" className="flex items-center gap-3">
           <img src="/logo.svg" alt="Logo" className="h-9 w-9" />

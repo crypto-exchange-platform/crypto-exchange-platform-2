@@ -6,6 +6,8 @@ import { useState } from "react";
 import { Overview } from "../overview/Overview";
 import { HowItWorks } from "../howItWorks/HowItWorks";
 import { TestimonialSection } from "../testimonials/Testimonials";
+import { TrustedPlatformSection } from "../trsutedPlatform/TrustedPlatform";
+import { Market } from "../marketGlance/Market";
 
 function LandingPage() {
   const [modal, setModal] = useState<"login" | "signup" | null>(null);
@@ -26,6 +28,12 @@ function LandingPage() {
         </section> 
         <section id="howitworks">
           <HowItWorks />
+        </section>
+          <section id="trsutedplatform">
+          <TrustedPlatformSection />
+        </section>
+        <section id="market">
+          <Market />
         </section>
          <section id="testimonials">
           <TestimonialSection />

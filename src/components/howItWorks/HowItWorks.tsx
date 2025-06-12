@@ -34,7 +34,7 @@ const steps = [
 
 export const HowItWorks: FC = () => {
   return (
-    <section className="w-full bg-gradient-to-b from-pink-600 via-fuchsia-700 to-rose-600 py-24 px-4 text-center text-white">
+    <section className="w-full bg-gradient-to-b from-[#1a0329]  to-[#1a0329]  py-24 px-4 text-center text-white">
       <div className="container mx-auto max-w-5xl">
         <motion.h2
           className="text-3xl md:text-4xl font-bold mb-4"
