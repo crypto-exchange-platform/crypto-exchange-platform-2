@@ -3,6 +3,7 @@ import { HeroSpinPrize } from "../heroSection/HeroSection";
 import { FaqSection } from "../faqSection/FaqSection";
 import { Footer } from "../footer/Footer";
 import { useState } from "react";
+import { Overview } from "../overview/Overview";
 
 function LandingPage() {
   const [modal, setModal] = useState<"login" | "signup" | null>(null);
@@ -18,6 +19,9 @@ function LandingPage() {
         <section id="hero">
           <HeroSpinPrize />
         </section>
+        <section id="overview">
+          <Overview />
+        </section> 
         <section id="faq">
           <FaqSection />
         </section>
