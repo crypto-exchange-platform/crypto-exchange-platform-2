@@ -4,6 +4,7 @@ import { FaqSection } from "../faqSection/FaqSection";
 import { Footer } from "../footer/Footer";
 import { useState } from "react";
 import { Overview } from "../overview/Overview";
+import { HowItWorks } from "../howItWorks/HowItWorks";
 
 function LandingPage() {
   const [modal, setModal] = useState<"login" | "signup" | null>(null);
@@ -22,6 +23,9 @@ function LandingPage() {
         <section id="overview">
           <Overview />
         </section> 
+        <section id="howitworks">
+          <HowItWorks />
+        </section>
         <section id="faq">
           <FaqSection />
         </section>
