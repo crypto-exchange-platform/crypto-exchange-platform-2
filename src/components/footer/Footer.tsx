@@ -56,7 +56,7 @@ export const Footer: FC = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="w-full text-white bg-gradient-to-b from-pink-600 via-fuchsia-700 to-rose-600  px-6 pt-16 pb-6">
+    <footer className="w-full text-white bg-gradient-to-b from-[#1a0329]  to-[#1a0329] px-6 pt-16 pb-6">
       <div className="container mx-auto grid lg:grid-cols-5 md:grid-cols-2 gap-10">
         <div className="col-span-1">
           <div className="flex items-center gap-2 mb-4">

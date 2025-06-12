@@ -3,7 +3,8 @@ import { Button } from "../ui/button";
 
 export const Overview: FC = () => {
   return (
-    <section className="w-full bg-gradient-to-b from-pink-600 via-fuchsia-700 to-rose-600 text-white py-24 px-4">
+    <section className="w-full bg-[#1c052e] 
+ text-white py-24 px-4">
       <div className="container mx-auto text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">
           Market Insights at a Glance

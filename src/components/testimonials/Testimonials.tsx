@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export const TestimonialSection: FC = () => {
   return (
-    <section className="w-full bg-gradient-to-b from-pink-600 via-fuchsia-700 to-rose-600  py-24 px-6 text-black">
+    <section className="w-full bg-[#2d0843]  py-24 px-6 text-black">
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
@@ -26,7 +26,7 @@ export const TestimonialSection: FC = () => {
           </div>
         </div>
 
-        <div className="relative bg-gradient-to-b from-pink-500 via-fuchsia-800 to-fuchsia-600  border-l-4 border-pink-500 p-6 shadow-md rounded-lg">
+        <div className="relative bg-gradient-to-b from-[#1a0329] via-[#29063d] to-[#1a0329]  border-l-4 p-6 shadow-md border-[#2d0843] rounded-lg">
           <div className="text-xl font-semibold leading-relaxed mb-4 text-white">
             “Great course I really enjoyed it and the course was way easy to learn with very good explanations of the code,
             I could easily understand and develop applications with the knowledge gathered during the course.”
@@ -41,17 +41,7 @@ export const TestimonialSection: FC = () => {
         </div>
       </div>
 
-      <div className="mt-20 bg-gradient-to-r from-fuchsia-800 to-fuchsia text-white rounded-md py-10 px-6 flex flex-col md:flex-row justify-between items-center">
-        <div className="mb-4 md:mb-0">
-          <h3 className="text-lg font-bold mb-1">Earn up to $25 worth of crypto</h3>
-          <p className="text-sm text-white/80">
-            Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself.
-          </p>
-        </div>
-        <Button className="bg-white text-blue-600 font-semibold hover:bg-blue-100">
-          Create Account
-        </Button>
-      </div>
+   
     </section>
   );
 };

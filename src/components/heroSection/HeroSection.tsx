@@ -22,7 +22,7 @@ const promotions = [
 
 export const HeroSpinPrize: FC = () => {
   return (
-    <section className="w-full bg-gradient-to-b from-pink-600 via-fuchsia-700 to-rose-600 text-white py-24 px-4 overflow-hidden">
+    <section className="w-full bg-gradient-to-b from-[#1a0329] via-[#29063d] to-[#1a0329] text-white py-24 px-4 overflow-hidden">
       <style>
         {`
           @keyframes fadeInUp {

@@ -48,7 +48,8 @@ export const FaqSection: FC = () => {
   return (
     <section
       id="faq"
-      className="w-full bg-gradient-to-b from-pink-600 via-fuchsia-700 to-rose-600 text-white py-24 px-4"
+      className="w-full bg-gradient-to-b from-[#1c052e] via-[#2d0843] to-[#180225]
+ text-white py-24 px-4"
     >
       <style>{`
         .faq-item {
@@ -74,7 +75,7 @@ export const FaqSection: FC = () => {
       `}</style>
 
       <div className="container mx-auto max-w-3xl">
-        <h2 className="text-4xl font-bold text-center mb-12 text-pink-300">
+        <h2 className="text-4xl font-bold text-center mb-12 text-yellow-300">
           Frequently Asked Questions
         </h2>
 
