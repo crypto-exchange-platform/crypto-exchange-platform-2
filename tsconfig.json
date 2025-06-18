@@ -6,11 +6,10 @@
     "jsx": "react-jsx",
     "strict": true,
     "baseUrl": "./",
-    "types": ["react", "vite/client"],
+    "types": ["react", "react-dom", "vite/client"],
     "paths": {
       "@/*": ["src/*"]
     }
   },
   "include": ["src", "lib"]
 }
- 
