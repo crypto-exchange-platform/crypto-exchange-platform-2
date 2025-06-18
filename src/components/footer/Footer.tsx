@@ -1,10 +1,5 @@
 import { FC } from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+
 
 const columns = [
   {
@@ -96,23 +91,7 @@ export const Footer: FC = () => {
         ))}
       </div>
 
-      <div className="container mx-auto mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/40">
-        <p>Copyright © {year} Free For World People</p>
-        <div className="flex gap-4 text-white/40">
-          <a href="#" className="hover:text-white">
-            <FaFacebookF size={16} />
-          </a>
-          <a href="#" className="hover:text-white">
-            <FaTwitter size={16} />
-          </a>
-          <a href="#" className="hover:text-white">
-            <FaInstagram size={16} />
-          </a>
-          <a href="#" className="hover:text-white">
-            <FaLinkedinIn size={16} />
-          </a>
-        </div>
-      </div>
+  
     </footer>
   );
 };
