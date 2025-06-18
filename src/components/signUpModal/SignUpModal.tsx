@@ -6,10 +6,9 @@ interface SignupModalProps {
 }
 
 export const SignupModal: FC<SignupModalProps> = ({ onClose }) => {
-  const [countries, setCountries] = useState([]);
-  const [dialCodes, setDialCodes] = useState([]);
+  const [countries, setCountries] = useState<any[]>([]);
+  const [dialCodes, setDialCodes] = useState<any[]>([]);
   const [error, setError] = useState("");
-
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
@@ -34,55 +33,53 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose }) => {
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
-  ) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
+  ) => setForm({ ...form, [e.target.name]: e.target.value });
 
   const isValidEmail = (email: string) =>
     /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const isStrongPassword = (password: string) =>
-    /^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=]).{8,}$/.test(password);
+  const isStrongPassword = (pass: string) =>
+    /^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=]).{8,}$/.test(pass);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setError("");
-
-    const requiredFields = [
-      "firstName",
-      "lastName",
-      "username",
-      "email",
-      "password",
-    ];
-    for (const field of requiredFields) {
-      if (!form[field as keyof typeof form]) {
+    const required = ["firstName", "lastName", "username", "email", "password"];
+    for (const f of required) {
+      if (!form[f as keyof typeof form]) {
         setError("Please fill all required fields.");
         return;
       }
     }
-
     if (!isValidEmail(form.email)) {
-      setError("Please enter a valid email address.");
+      setError("Invalid email");
       return;
     }
-
     if (!isStrongPassword(form.password)) {
       setError(
-        "Password must be at least 8 characters, include a number and a special character."
+        "Password must be 8+ chars, include number & special char"
       );
       return;
     }
-
+    const isoDOB =
+      form.birthdate
+        ? new Date(form.birthdate).toISOString().split("T")[0]
+        : null;
     try {
       await axios.post(
         "https://api.salesvault.vc/identity/api/clients/create-client-via-web",
         {
-          ...form,
+          firstName: form.firstName,
+          lastName: form.lastName,
+          username: form.username,
+          email: form.email,
+          password: form.password,
           telephone: form.dialCode + form.phone,
-          dateOfBirth: form.birthdate,
+          country: form.country || null,
+          language: form.language || null,
+          dateOfBirth: isoDOB,
           source:
             window.location.hostname === "localhost"
-              ? "landing.salesvault.vc" //change
+              ? "cryptotrade.salesvault.vc"
               : window.location.hostname,
         }
       );
@@ -94,8 +91,11 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 overflow-auto">
-      <div className="bg-yellow-500 text-black w-full max-w-xl p-6 rounded-md shadow-lg relative">
-        <button onClick={onClose} className="absolute right-4 top-4 text-xl">
+      <div className="bg-purple-950 w-full max-w-xl p-6 rounded-md shadow-lg relative">
+        <button
+          onClick={onClose}
+          className="absolute right-4 top-4 text-xl cursor-pointer"
+        >
           ×
         </button>
         <h2 className="text-2xl font-bold mb-6 text-center text-white">
@@ -107,66 +107,62 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose }) => {
         >
           <input
             name="firstName"
-            type="text"
             placeholder="First Name"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-text"
             onChange={handleChange}
           />
           <input
             name="lastName"
-            type="text"
             placeholder="Last Name"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-text"
             onChange={handleChange}
           />
           <input
             name="username"
-            type="text"
             placeholder="Username"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-text"
             onChange={handleChange}
           />
           <input
             name="email"
             type="email"
             placeholder="Email"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-text"
             onChange={handleChange}
           />
           <input
             name="phone"
             type="tel"
             placeholder="Phone Number"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-text"
             onChange={handleChange}
           />
           <input
             name="birthdate"
             type="date"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-pointer"
             onChange={handleChange}
           />
           <input
             name="password"
             type="password"
             placeholder="Password"
-            className="border p-2 rounded col-span-full"
+            className="border p-2 rounded bg-white text-black col-span-full cursor-text"
             onChange={handleChange}
           />
           <input
             name="language"
-            type="text"
             placeholder="Language"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-text"
             onChange={handleChange}
           />
           <select
             name="dialCode"
-            className="border p-2 rounded"
+            className="border p-2 rounded bg-white text-black cursor-pointer"
             onChange={handleChange}
           >
             <option value="">Dial Code</option>
-            {dialCodes.map((d: any) => (
+            {dialCodes.map((d) => (
               <option key={d.code} value={d.dial_code}>
                 {d.dial_code}
               </option>
@@ -174,22 +170,24 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose }) => {
           </select>
           <select
             name="country"
-            className="border p-2 rounded w-full col-span-full"
+            className="border p-2 rounded bg-white text-black col-span-full cursor-pointer"
             onChange={handleChange}
           >
             <option value="">Select Country</option>
-            {countries.map((c: any) => (
+            {countries.map((c) => (
               <option key={c.code} value={c.name}>
                 {c.name}
               </option>
             ))}
           </select>
           {error && (
-            <div className="text-red-500 text-sm col-span-full">{error}</div>
+            <div className="text-red-500 text-sm col-span-full">
+              {error}
+            </div>
           )}
           <button
             type="submit"
-            className="w-full bg-black text-white py-2 rounded col-span-full hover:bg-gray-900"
+            className="w-full bg-black text-white py-2 rounded col-span-full hover:bg-gray-900 cursor-pointer"
           >
             Sign Up
           </button>
@@ -197,4 +195,5 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose }) => {
       </div>
     </div>
   );
-}; 
+};
+ 
