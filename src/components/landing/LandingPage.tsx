@@ -16,8 +16,14 @@ function LandingPage() {
 
   return (
     <>
- {modal === "login" && <LoginModal onClose={() => setModal(null)} />}
-      {modal === "signup" && <SignupModal onClose={() => setModal(null)} />} 
+      {modal === "login" && <LoginModal onClose={() => setModal(null)} />}Add
+      commentMore actions
+      {modal === "signup" && (
+        <SignupModal
+          onClose={() => setModal(null)}
+          onSignupSuccess={() => setModal("login")}
+        />
+      )}
       <div className="flex flex-col">
         <Header
           onLogin={() => setModal("login")}
@@ -28,17 +34,17 @@ function LandingPage() {
         </section>
         <section id="overview">
           <Overview />
-        </section> 
+        </section>
         <section id="howitworks">
           <HowItWorks />
         </section>
-          <section id="trsutedplatform">
+        <section id="trsutedplatform">
           <TrustedPlatformSection />
         </section>
         <section id="market">
           <Market />
         </section>
-         <section id="testimonials">
+        <section id="testimonials">
           <TestimonialSection />
         </section>
         <section id="faq">
