@@ -1,0 +1,240 @@
+{
+  "header": {
+    "homepage": "Startseite",
+    "brand": "Rocket",
+    "login": "Anmelden",
+    "signup": "Registrieren"
+  },
+  "nav": {
+    "buyCrypto": "Krypto kaufen",
+    "overview": "Übersicht",
+    "howItWorks": "Wie es funktioniert",
+    "trusted": "Vertrauenswürdig",
+    "markets": "Märkte",
+    "testimonials": "Referenzen",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Drehen & Gewinnen",
+    "highlight": "Garantierte Belohnungen",
+    "description": "Mach mit und sichere dir sofort Tokens wie ADA, XRP, SOL und mehr!",
+    "inputPlaceholder": "E-Mail oder Telefonnummer eingeben",
+    "cta": "Jetzt starten",
+    "imageAlt": "Spin & Win Bild"
+  },
+  "promotions": {
+    "promo1": {
+      "title": "🎉 GEWINNE 20 USDT!",
+      "subtitle": "Tippe, um jetzt deinen garantierten Preis freizuschalten"
+    },
+    "promo2": {
+      "title": "🏆 VIP TRADING HERAUSFORDERUNG",
+      "subtitle": "Kämpfe um eine Omega-Uhr + 8.000 USDT Preispool"
+    },
+    "promo3": {
+      "title": "🌙 RAMADAN SEGEN",
+      "subtitle": "Genieße höhere Belohnungen mit einfacheren Aufgaben"
+    },
+    "promo4": {
+      "title": "💎 WERDE VIP-KUNDE",
+      "subtitle": "Jetzt beitreten und 8.000 USDT Willkommensgeschenk sichern"
+    }
+  },
+  "overview": {
+    "title": "Markteinblicke auf einen Blick",
+    "description": "Erkunde Live-Handelsaktivitäten und Leistungskennzahlen führender Kryptowährungen. Bleibe informiert und treffe klügere Entscheidungen.",
+    "explore": "Märkte erkunden",
+    "startTrading": "Mit dem Handel beginnen",
+    "listImageAlt": "Krypto-Übersicht",
+    "trendsImageAlt": "Markttrends"
+  },
+  "howItWorks": {
+    "title": "Wie es funktioniert",
+    "description": "Stacks ist eine produktionsreife Bibliothek stapelbarer Inhaltsblöcke, die in React Native erstellt wurde.",
+    "step1": {
+      "step": "SCHRITT 1",
+      "title": "Herunterladen",
+      "description": "Stacks ist eine produktionsreife Bibliothek stapelbarer Inhaltsblöcke, die in React Native erstellt wurde.",
+      "icon": "/download.png"
+    },
+    "step2": {
+      "step": "SCHRITT 2",
+      "title": "Wallet verbinden",
+      "description": "Stacks ist eine produktionsreife Bibliothek stapelbarer Inhaltsblöcke, die in React Native erstellt wurde.",
+      "icon": "/wallet.png"
+    },
+    "step3": {
+      "step": "SCHRITT 3",
+      "title": "Handel starten",
+      "description": "Stacks ist eine produktionsreife Bibliothek stapelbarer Inhaltsblöcke, die in React Native erstellt wurde.",
+      "icon": "/trade.png"
+    },
+    "step4": {
+      "step": "SCHRITT 4",
+      "title": "Geld verdienen",
+      "description": "Stacks ist eine produktionsreife Bibliothek stapelbarer Inhaltsblöcke, die in React Native erstellt wurde.",
+      "icon": "/earn.png"
+    }
+  },
+  "trusted": {
+    "title": "Die vertrauenswürdigste Kryptowährungsplattform.",
+    "description": "Cryptolly bietet eine Vielzahl von Funktionen, die es zum besten Ort machen, um mit dem Handel zu beginnen",
+    "cta": "Jetzt handeln",
+    "features": {
+      "feature1": {
+        "title": "Portfolio-Manager",
+        "description": "Kaufen und verkaufen Sie beliebte digitale Währungen und behalten Sie sie an einem Ort im Blick."
+      },
+      "feature2": {
+        "title": "Tresorschutz",
+        "description": "Für zusätzliche Sicherheit lagern Sie Ihre Gelder in einem Tresor mit verzögerten Auszahlungen."
+      },
+      "feature3": {
+        "title": "Mobile Apps",
+        "description": "Behalten Sie die Märkte mit der Cryptolly-App für Android oder iOS im Auge."
+      }
+    }
+  },
+  "market": {
+    "title": "Markteinblicke auf einen Blick",
+    "description": "Bleiben Sie informiert über aktuelle Markttrends, Kursbewegungen und Krypto-Leistungen.",
+    "imageAlt": "Krypto-Übersicht",
+    "cta": "Alle Marktdaten anzeigen",
+    "stat1": {
+      "title": "24H Volumen",
+      "value": "$58.4B",
+      "description": "Globales Handelsvolumen in den letzten 24 Stunden"
+    },
+    "stat2": {
+      "title": "Top-Gewinner",
+      "value": "AVAX +14.2%",
+      "description": "Führender Vermögenswert nach Wachstum heute"
+    },
+    "stat3": {
+      "title": "Trend-Paar",
+      "value": "ETH/USDT",
+      "description": "Meistgehandeltes Krypto-Paar"
+    }
+  },
+  "testimonials": {
+    "title": "Unsere Kunden lieben, was wir tun",
+    "subtitle": "Verwandle deine Idee in Realität mit Finsweet",
+    "description": "Es ist eine bekannte Tatsache, dass sich ein Leser durch den lesbaren Inhalt einer Seite ablenken lässt, wenn er sich das Layout ansieht.",
+    "reviews": "30+ Kundenbewertungen",
+    "quote": "„Großartiger Kurs, ich habe ihn wirklich genossen und der Kurs war sehr einfach zu lernen mit sehr guten Erklärungen des Codes. Ich konnte den Stoff leicht verstehen und Anwendungen mit dem während des Kurses erworbenen Wissen entwickeln.“",
+    "clientName": "Johnny Andro",
+    "clientRole": "Direktor, Unternehmen",
+    "clientAlt": "Kundenlogo"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "faq1": {
+      "question": "Was ist eine Kryptowährungsbörse?",
+      "answer": "Eine Kryptowährungsbörse ist eine Plattform, auf der Sie digitale Vermögenswerte wie Bitcoin, Ethereum und mehr kaufen, verkaufen und handeln können."
+    },
+    "faq2": {
+      "question": "Welche Produkte bietet Rocket an?",
+      "answer": "Rocket bietet Spot-Handel, Futures, Copy Trading, Staking und eine Vielzahl von Produkten für Anfänger und Profis."
+    },
+    "faq3": {
+      "question": "Wie kauft man Bitcoin und andere Kryptowährungen auf Rocket?",
+      "answer": "Erstellen Sie einfach ein Konto, führen Sie eine Identitätsprüfung durch und verwenden Sie Fiat-Methoden wie Kreditkarten oder P2P, um Krypto zu kaufen."
+    },
+    "faq4": {
+      "question": "Wie verfolgt man Kryptowährungspreise?",
+      "answer": "Sie können Preise in Echtzeit auf Rocket mit Live-Charts, Watchlists und Marktübersichtsseiten verfolgen."
+    },
+    "faq5": {
+      "question": "Wie handelt man Kryptowährungen auf Rocket?",
+      "answer": "Wählen Sie zwischen Spot- oder Futures-Märkten, analysieren Sie Charts, platzieren Sie Markt- oder Limit-Orders und verwalten Sie Ihre Positionen."
+    },
+    "faq6": {
+      "question": "Wie kann man mit Krypto bei Rocket verdienen?",
+      "answer": "Sie können durch Staking, Copy Trading, Sparprodukte oder durch Teilnahme an Aktionen und Kampagnen verdienen."
+    },
+    "faq7": {
+      "question": "Warum Rocket als Ihre Kryptowährungsbörse wählen?",
+      "answer": "Rocket bietet Sicherheit, niedrige Gebühren, eine benutzerfreundliche Oberfläche und Tools wie Copy Trading zur Unterstützung Ihrer Handelsreise."
+    }
+  },
+  "footer": {
+    "brand": "Rocket",
+    "logoAlt": "Rocket-Logo",
+    "contactPrompt": "Lass uns reden! 👍",
+    "phone": "+98 902 353 2926",
+    "email": "RocketCrypto@Gmail.Com",
+    "copyright": "Frei für Menschen auf der ganzen Welt",
+    "columns": {
+      "products": {
+        "title": "PRODUKTE",
+        "links": [
+          "Spot",
+          "Inverse Perpetual",
+          "USDT Perpetual",
+          "Börse",
+          "Launchpad",
+          "Binance Pay"
+        ]
+      },
+      "services": {
+        "title": "DIENSTLEISTUNGEN",
+        "links": [
+          "Krypto kaufen",
+          "Märkte",
+          "Handelsgebühr",
+          "Affiliate-Programm",
+          "Empfehlungsprogramm",
+          "API"
+        ]
+      },
+      "support": {
+        "title": "SUPPORT",
+        "links": [
+          "Bybit Learn",
+          "Hilfezentrum",
+          "Benutzerfeedback",
+          "Anfrage einreichen",
+          "API-Dokumentation",
+          "Handelsregeln"
+        ]
+      },
+      "about": {
+        "title": "ÜBER UNS",
+        "links": [
+          "Über Bitget",
+          "Echtheitsprüfung",
+          "Karriere",
+          "Geschäftskontakte",
+          "Blog"
+        ]
+      }
+    },
+    "socials": ["Facebook", "Twitter", "Instagram", "LinkedIn"]
+  },
+  "login": {
+    "title": "Anmelden",
+    "emailOrUsername": "E-Mail oder Benutzername",
+    "password": "Passwort",
+    "button": "Anmelden",
+    "errorRequired": "Bitte füllen Sie alle erforderlichen Felder aus.",
+    "errorFailed": "Anmeldung fehlgeschlagen."
+  },
+  "signup": {
+    "title": "Registrieren",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "birthdate": "Geburtsdatum",
+    "password": "Passwort",
+    "language": "Sprache",
+    "dialCode": "Vorwahl",
+    "country": "Land auswählen",
+    "button": "Registrieren",
+    "errorRequired": "Bitte füllen Sie alle erforderlichen Felder aus.",
+    "errorInvalidEmail": "Ungültige E-Mail-Adresse",
+    "errorWeakPassword": "Das Passwort muss mindestens 8 Zeichen, eine Zahl und ein Sonderzeichen enthalten",
+    "errorFailed": "Registrierung fehlgeschlagen."
+  }
+}

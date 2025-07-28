@@ -16,8 +16,7 @@ function LandingPage() {
 
   return (
     <>
-      {modal === "login" && <LoginModal onClose={() => setModal(null)} />}Add
-      commentMore actions
+      {modal === "login" && <LoginModal onClose={() => setModal(null)} />}
       {modal === "signup" && (
         <SignupModal
           onClose={() => setModal(null)}

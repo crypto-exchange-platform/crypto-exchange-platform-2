@@ -1,0 +1,240 @@
+{
+  "header": {
+    "homepage": "Página principal",
+    "brand": "Rocket",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse"
+  },
+  "nav": {
+    "buyCrypto": "Comprar cripto",
+    "overview": "Visión general",
+    "howItWorks": "Cómo funciona",
+    "trusted": "De confianza",
+    "markets": "Mercados",
+    "testimonials": "Testimonios",
+    "faq": "Preguntas frecuentes"
+  },
+  "hero": {
+    "title": "Gira y gana",
+    "highlight": "Premios garantizados",
+    "description": "¡Únete a la diversión y reclama tokens como ADA, XRP, SOL y más al instante!",
+    "inputPlaceholder": "Ingresa correo o número de teléfono",
+    "cta": "Comenzar ahora",
+    "imageAlt": "Imagen de girar y ganar"
+  },
+  "promotions": {
+    "promo1": {
+      "title": "🎉 ¡GANA 20 USDT!",
+      "subtitle": "Toca para desbloquear tu premio garantizado ahora"
+    },
+    "promo2": {
+      "title": "🏆 DESAFÍO VIP DE TRADING",
+      "subtitle": "Compite por un reloj Omega + 8,000 USDT en premios"
+    },
+    "promo3": {
+      "title": "🌙 BENDICIONES DE RAMADÁN",
+      "subtitle": "Disfruta de mayores recompensas con tareas más fáciles"
+    },
+    "promo4": {
+      "title": "💎 HAZTE CLIENTE VIP",
+      "subtitle": "Únete ahora y reclama tu regalo de bienvenida de 8,000 USDT"
+    }
+  },
+  "overview": {
+    "title": "Información del mercado de un vistazo",
+    "description": "Explora la actividad comercial en vivo y el rendimiento de las principales criptomonedas. Mantente actualizado y toma decisiones más inteligentes.",
+    "explore": "Explorar mercados",
+    "startTrading": "Comenzar a operar",
+    "listImageAlt": "Resumen de criptomonedas",
+    "trendsImageAlt": "Tendencias del mercado"
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "description": "Stacks es una biblioteca lista para producción de bloques de contenido apilables construida en React Native.",
+    "step1": {
+      "step": "PASO 1",
+      "title": "Descargar",
+      "description": "Stacks es una biblioteca lista para producción de bloques de contenido apilables construida en React Native.",
+      "icon": "/download.png"
+    },
+    "step2": {
+      "step": "PASO 2",
+      "title": "Conectar billetera",
+      "description": "Stacks es una biblioteca lista para producción de bloques de contenido apilables construida en React Native.",
+      "icon": "/wallet.png"
+    },
+    "step3": {
+      "step": "PASO 3",
+      "title": "Comenzar a operar",
+      "description": "Stacks es una biblioteca lista para producción de bloques de contenido apilables construida en React Native.",
+      "icon": "/trade.png"
+    },
+    "step4": {
+      "step": "PASO 4",
+      "title": "Ganar dinero",
+      "description": "Stacks es una biblioteca lista para producción de bloques de contenido apilables construida en React Native.",
+      "icon": "/earn.png"
+    }
+  },
+  "trusted": {
+    "title": "La plataforma de criptomonedas más confiable.",
+    "description": "Cryptolly tiene una variedad de funciones que la convierten en el mejor lugar para comenzar a operar",
+    "cta": "Vamos a operar ahora",
+    "features": {
+      "feature1": {
+        "title": "Administrador de portafolio",
+        "description": "Compra y vende monedas digitales populares, mantenlas todas en un solo lugar."
+      },
+      "feature2": {
+        "title": "Protección de bóveda",
+        "description": "Para mayor seguridad, guarda tus fondos en una bóveda con retiros retardados."
+      },
+      "feature3": {
+        "title": "Aplicaciones móviles",
+        "description": "Mantente al tanto de los mercados con la aplicación Cryptolly para Android o iOS."
+      }
+    }
+  },
+  "market": {
+    "title": "Información del mercado de un vistazo",
+    "description": "Mantente informado con tendencias en tiempo real, movimientos de activos y rendimiento de criptomonedas.",
+    "imageAlt": "Resumen de criptomonedas",
+    "cta": "Ver datos completos del mercado",
+    "stat1": {
+      "title": "Volumen 24H",
+      "value": "$58.4B",
+      "description": "Volumen global de operaciones en las últimas 24 horas"
+    },
+    "stat2": {
+      "title": "Mayor ganancia",
+      "value": "AVAX +14.2%",
+      "description": "Activo líder por crecimiento hoy"
+    },
+    "stat3": {
+      "title": "Par en tendencia",
+      "value": "ETH/USDT",
+      "description": "Par de criptomonedas más negociado"
+    }
+  },
+  "testimonials": {
+    "title": "A nuestros clientes les encanta lo que hacemos",
+    "subtitle": "Transforma tu idea en realidad con Finsweet",
+    "description": "Es un hecho establecido que un lector se distraerá con el contenido legible de una página cuando examine su diseño.",
+    "reviews": "30+ Opiniones de clientes",
+    "quote": "“Gran curso, realmente lo disfruté y fue muy fácil de aprender con muy buenas explicaciones del código. Pude entender fácilmente y desarrollar aplicaciones con el conocimiento adquirido durante el curso.”",
+    "clientName": "Johnny Andro",
+    "clientRole": "Director, Compañía",
+    "clientAlt": "Logo del cliente"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "faq1": {
+      "question": "¿Qué es un exchange de criptomonedas?",
+      "answer": "Un exchange de criptomonedas es una plataforma donde puedes comprar, vender e intercambiar activos digitales como Bitcoin, Ethereum y más."
+    },
+    "faq2": {
+      "question": "¿Qué productos ofrece Rocket?",
+      "answer": "Rocket ofrece trading spot, futuros, copy trading, staking y una variedad de productos para principiantes y profesionales."
+    },
+    "faq3": {
+      "question": "¿Cómo comprar Bitcoin y otras criptomonedas en Rocket?",
+      "answer": "Simplemente crea una cuenta, completa la verificación de identidad y usa métodos fiduciarios como tarjetas de crédito o P2P para comprar criptomonedas."
+    },
+    "faq4": {
+      "question": "¿Cómo seguir los precios de las criptomonedas?",
+      "answer": "Puedes seguir precios en tiempo real en Rocket usando gráficos en vivo, listas de seguimiento y páginas de resumen de mercado."
+    },
+    "faq5": {
+      "question": "¿Cómo operar con criptomonedas en Rocket?",
+      "answer": "Elige entre mercados spot o de futuros, analiza gráficos, coloca órdenes de mercado o límite y gestiona tus posiciones."
+    },
+    "faq6": {
+      "question": "¿Cómo ganar con criptomonedas en Rocket?",
+      "answer": "Puedes ganar a través de staking, copy trading, productos de ahorro o participando en promociones y campañas."
+    },
+    "faq7": {
+      "question": "¿Por qué elegir Rocket como tu exchange de criptomonedas?",
+      "answer": "Rocket ofrece seguridad, bajas comisiones, una interfaz fácil de usar y herramientas como copy trading para apoyar tu camino."
+    }
+  },
+  "footer": {
+    "brand": "Rocket",
+    "logoAlt": "Logotipo de Rocket",
+    "contactPrompt": "¡Hablemos! 👍",
+    "phone": "+98 902 353 2926",
+    "email": "RocketCrypto@Gmail.Com",
+    "copyright": "Libre para la gente del mundo",
+    "columns": {
+      "products": {
+        "title": "PRODUCTOS",
+        "links": [
+          "Spot",
+          "Inverso Perpetuo",
+          "USDT Perpetuo",
+          "Intercambio",
+          "Launchpad",
+          "Binance Pay"
+        ]
+      },
+      "services": {
+        "title": "SERVICIOS",
+        "links": [
+          "Comprar Cripto",
+          "Mercados",
+          "Comisión de Trading",
+          "Programa de Afiliados",
+          "Programa de Referidos",
+          "API"
+        ]
+      },
+      "support": {
+        "title": "SOPORTE",
+        "links": [
+          "Bybit Learn",
+          "Centro de Ayuda",
+          "Comentarios de Usuarios",
+          "Enviar una Solicitud",
+          "Documentación API",
+          "Reglas de Trading"
+        ]
+      },
+      "about": {
+        "title": "SOBRE NOSOTROS",
+        "links": [
+          "Acerca de Bitget",
+          "Verificación de Autenticidad",
+          "Carreras",
+          "Contactos Comerciales",
+          "Blog"
+        ]
+      }
+    },
+    "socials": ["Facebook", "Twitter", "Instagram", "LinkedIn"]
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "emailOrUsername": "Correo electrónico o nombre de usuario",
+    "password": "Contraseña",
+    "button": "Iniciar sesión",
+    "errorRequired": "Por favor complete todos los campos obligatorios.",
+    "errorFailed": "Error al iniciar sesión."
+  },
+  "signup": {
+    "title": "Registrarse",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "username": "Nombre de usuario",
+    "email": "Correo electrónico",
+    "phone": "Número de teléfono",
+    "birthdate": "Fecha de nacimiento",
+    "password": "Contraseña",
+    "language": "Idioma",
+    "dialCode": "Código de marcación",
+    "country": "Seleccionar país",
+    "button": "Registrarse",
+    "errorRequired": "Por favor complete todos los campos obligatorios.",
+    "errorInvalidEmail": "Correo electrónico no válido",
+    "errorWeakPassword": "La contraseña debe tener más de 8 caracteres, incluir un número y un carácter especial",
+    "errorFailed": "Error al registrarse."
+  }
+}

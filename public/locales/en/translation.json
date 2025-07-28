@@ -1,0 +1,241 @@
+{
+  "header": {
+    "homepage": "Homepage",
+    "brand": "Rocket",
+    "login": "Log in",
+    "signup": "Sign up"
+  },
+  "nav": {
+    "buyCrypto": "Buy crypto",
+    "overview": "Overview",
+    "howItWorks": "How it works",
+    "trusted": "Trusted",
+    "markets": "Markets",
+    "testimonials": "Testimonials",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Spin & Score",
+    "highlight": "Guaranteed Rewards",
+    "description": "Join the fun and claim tokens like ADA, XRP, SOL, and more — instantly!",
+    "inputPlaceholder": "Enter email or phone number",
+    "cta": "Start Now",
+    "imageAlt": "Spin & Win Visual"
+  },
+  "promotions": {
+    "promo1": {
+      "title": "🎉 WIN 20 USDT!",
+      "subtitle": "Tap to unlock your guaranteed prize now!"
+    },
+    "promo2": {
+      "title": "🏆 VIP TRADING CHALLENGE",
+      "subtitle": "Compete for an Omega watch + 8,000 USDT pool!"
+    },
+    "promo3": {
+      "title": "🌙 RAMADAN BLESSINGS",
+      "subtitle": "Enjoy higher rewards with easier tasks during Ramadan."
+    },
+    "promo4": {
+      "title": "💎 BECOME A VIP CLIENT",
+      "subtitle": "Join now and claim your 8,000 USDT welcome gift."
+    }
+  },
+  "overview": {
+    "title": "Market Insights at a Glance",
+    "description": "Explore live trading activity and performance metrics across top cryptocurrencies. Stay updated, make smarter moves.",
+    "explore": "Explore Markets",
+    "startTrading": "Start Trading",
+    "listImageAlt": "Crypto Overview",
+    "trendsImageAlt": "Market Trends"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Stacks is a production-ready library of stackable content blocks built in React Native.",
+    "step1": {
+      "step": "STEP 1",
+      "title": "Download",
+      "description": "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "icon": "/download.png"
+    },
+    "step2": {
+      "step": "STEP 2",
+      "title": "Connect Wallet",
+      "description": "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "icon": "/wallet.png"
+    },
+    "step3": {
+      "step": "STEP 3",
+      "title": "Start Trading",
+      "description": "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "icon": "/trade.png"
+    },
+    "step4": {
+      "step": "STEP 4",
+      "title": "Earn Money",
+      "description": "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "icon": "/earn.png"
+    }
+  },
+  "trusted": {
+    "title": "The Most Trusted Cryptocurrency Platform.",
+    "description": "Cryptolly has a variety of features that make it the best place to start trading",
+    "cta": "Let’s Trade Now",
+    "features": {
+      "feature1": {
+        "title": "Portfolio Manager",
+        "description": "Buy and sell popular digital currencies, keep track of them in one place."
+      },
+      "feature2": {
+        "title": "Vault Protection",
+        "description": "For added security, store your funds in a vault with time delayed withdrawals."
+      },
+      "feature3": {
+        "title": "Mobile Apps",
+        "description": "Stay on top of the markets with the Cryptolly app for Android or iOS."
+      }
+    }
+  },
+  "market": {
+    "title": "Market Insights at a Glance",
+    "description": "Stay informed with real-time market trends, asset movements, and crypto performance.",
+    "imageAlt": "Crypto Overview",
+    "cta": "View Full Market Data",
+    "stat1": {
+      "title": "24H Volume",
+      "value": "$58.4B",
+      "description": "Global trading volume in the last 24 hours"
+    },
+    "stat2": {
+      "title": "Top Gainer",
+      "value": "AVAX +14.2%",
+      "description": "Leading asset by growth today"
+    },
+    "stat3": {
+      "title": "Trending Pair",
+      "value": "ETH/USDT",
+      "description": "Most actively traded crypto pair"
+    }
+  },
+  "testimonials": {
+    "title": "Our Customers Love What We Do",
+    "subtitle": "Transform Your Idea Into Reality With Finsweet",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "reviews": "30+ Customer Reviews",
+    "quote": "“Great course I really enjoyed it and the course was way easy to learn with very good explanations of the code, I could easily understand and develop applications with the knowledge gathered during the course.”",
+    "clientName": "Johnny Andro",
+    "clientRole": "Director, Company",
+    "clientAlt": "Client logo"
+  },
+
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "faq1": {
+      "question": "What is a cryptocurrency exchange?",
+      "answer": "A cryptocurrency exchange is a platform where you can buy, sell, and trade digital assets like Bitcoin, Ethereum, and more."
+    },
+    "faq2": {
+      "question": "What products does Rocket offer?",
+      "answer": "Rocket offers spot trading, futures, copy trading, staking, and a variety of earn products tailored for both beginners and pros."
+    },
+    "faq3": {
+      "question": "How to buy Bitcoin and other cryptocurrencies on Rocket?",
+      "answer": "Simply create an account, complete identity verification, then use fiat methods like credit cards or P2P to buy crypto."
+    },
+    "faq4": {
+      "question": "How do you track cryptocurrency prices?",
+      "answer": "You can track prices in real-time on Rocket using live charts, watchlists, and market overview pages."
+    },
+    "faq5": {
+      "question": "How to trade cryptocurrencies on Rocket?",
+      "answer": "Choose between spot or futures markets, analyze charts, place market or limit orders, and manage your positions."
+    },
+    "faq6": {
+      "question": "How to earn with crypto on Rocket?",
+      "answer": "You can earn through staking, copy trading, savings products, or participating in promotions and campaigns."
+    },
+    "faq7": {
+      "question": "Why choose Rocket as your cryptocurrency exchange?",
+      "answer": "Rocket offers security, low fees, a user-friendly interface, and tools like copy trading to support your trading journey."
+    }
+  },
+  "footer": {
+    "brand": "Rocket",
+    "logoAlt": "Rocket Logo",
+    "contactPrompt": "Let’s talk! 👍",
+    "phone": "+98 902 353 2926",
+    "email": "RocketCrypto@Gmail.Com",
+    "copyright": "Free For World People",
+    "columns": {
+      "products": {
+        "title": "PRODUCTS",
+        "links": [
+          "Spot",
+          "Inverse Perpetual",
+          "USDT Perpetual",
+          "Exchange",
+          "Launchpad",
+          "Binance Pay"
+        ]
+      },
+      "services": {
+        "title": "SERVICES",
+        "links": [
+          "Buy Crypto",
+          "Markets",
+          "Trading Fee",
+          "Affiliate Program",
+          "Referral Program",
+          "API"
+        ]
+      },
+      "support": {
+        "title": "SUPPORT",
+        "links": [
+          "Bybit Learn",
+          "Help Center",
+          "User Feedback",
+          "Submit A Request",
+          "API Documentation",
+          "Trading Rules"
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "links": [
+          "About Bitget",
+          "Authenticity Check",
+          "Careers",
+          "Business Contacts",
+          "Blog"
+        ]
+      }
+    },
+    "socials": ["Facebook", "Twitter", "Instagram", "LinkedIn"]
+  },
+  "login": {
+    "title": "Log In",
+    "emailOrUsername": "Email or Username",
+    "password": "Password",
+    "button": "Log In",
+    "errorRequired": "Please fill all required fields.",
+    "errorFailed": "Login failed."
+  },
+  "signup": {
+    "title": "Sign Up",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "username": "Username",
+    "email": "Email",
+    "phone": "Phone Number",
+    "birthdate": "Birthdate",
+    "password": "Password",
+    "language": "Language",
+    "dialCode": "Dial Code",
+    "country": "Select Country",
+    "button": "Sign Up",
+    "errorRequired": "Please fill all required fields.",
+    "errorInvalidEmail": "Invalid email",
+    "errorWeakPassword": "Password must be 8+ chars, include number & special char",
+    "errorFailed": "Signup failed."
+  }
+}
